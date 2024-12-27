@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px white;
+  text-align: center;
+  text-transform: uppercase;
+}
+body {
+  display: flex; /* Utilisation de flexbox pour diviser en colonnes */
+  height: 100%; /* Hauteur totale de l'écran */
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(201, 213, 223)
+  /* font-size: medium white; */
+}
+
+#left-section {
+  flex: 4; /* 60% de l'écran */
+}
+
+#right-section {
+  flex: 6; /* 40% de l'écran */
+  background-size: cover; /* L'image couvre toute la zone */
+  background-position: center; /* Centre l'image */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, sans-serif;
+  
+  
+}
+.form{
+  height: 660px;
+  width: 480px;
+  background: white;
+  padding-left: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+h1{
+  margin-top: 55px;
+  font-weight:300px;
+  font-style: normal;
+font-awe
+
+}
+input{
+  margin-top: 45px;
+  width: 300px;
+  padding: 20px;
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: var(--fontColor);
+  color: var(--fontColor);
+  text-transform: capitalize;
+  
+}
+button{
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  background-color: rgb(201, 213, 223);
+  border: none;
+  border-radius: 20px;
+  color: rgb(86, 86, 216);
+  margin: 15px auto 35px auto;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+/* button:active{
+  transform: scale(1.02);
+} */
+#forgotpassword{
+  text-transform: capitalize;
+  font-style: italic;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+p{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.icones a{
+  font-size: 2.1em;
+  padding: 3px;
+  color: var(--fontColor);
+  text-decoration: none;
+}
+.icones a i:hover{
+  transform: scale(1.6);
+  color: rgb(12, 85, 180);
+
+}
